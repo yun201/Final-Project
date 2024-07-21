@@ -1,4 +1,3 @@
-
 import Contact from './Contact';
 import Games from './Games';
 import Home from './Home';
@@ -31,6 +30,8 @@ function App() {
 }
 
 export default App;
+
+
 
 
 
