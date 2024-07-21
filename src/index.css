@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.content {
+  background-color: #f3f3f3;
+  flex: 1;
+}
+
+.section {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  background-color: #03191E;
+  top: 0;
+  position: sticky;
+}
+
+.navbar .links {
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+.navbar img {
+  margin-left: 80px;
+}
+
+.navbar h1 {
+  color: #BC243B;
+  font-size: 2.5em
+}
+
+.navbar a {
+  margin-left: 80px;
+  text-decoration: none;
+  padding: 5px;
+  color: #BC243B;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #F18F01;
+}
+
+/* Home */
+.titleImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.subImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+hr {
+  border-width: 2px;
+  margin: 25px;
+}
+
+/* Contact */
+
+.mainContact {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact label {
+  text-align: left;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact input,
+.contact textarea,
+.contact select {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  resize: none;
+}
+
+.contact button {
+  background: #F18F01;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  font-size: 16px;
+  margin: 10px;
+}
+.contactHeader {
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contactHeader h1 {
+  margin-right: 20px;
+}
+
+.languageToggle {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #F18F01;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+/* Games */
+.gamesContainer {
+  display: flex;
+  flex-direction: row; 
+  min-height: 100vh; 
+}
+
+.filterBar {
+  width: 250px;
+  padding: 50px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.filterBar h2 {
+  margin-bottom: 20px;
+}
+
+.filterBar div {
+  margin-bottom: 20px;
+}
+
+.filterBar label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.filterBar select {
+  width: 100%;
+  padding: 5px;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+}
+
+.searchBar {
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.searchBar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.gamesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.gameItem {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  max-width: 300px;
+}
+
+.gameItem img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.gameDetails {
+  text-align: center;
+}
+
+.gamePlatform,
+.gameGenre,
+.gameScore {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.games a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.games a:hover {
+  color: #F18F01;
+}
+
+.games .sublinks {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  color: #f3f3f3;
+  width: 100%;
+  background-color: #03191E; 
+  position: fixed;
+  bottom: 0;
+}
+
+.footer p {
+  padding: 5px;
+  font-size: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  padding: 5px;
+  color: #BC243B;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: #F18F01;
+}
+
+.footer h4 {
+  color: #BC243B;
+}
+
+/*FQA*/
+.fqa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto; 
+  width: 100%; 
+  max-width: 600px; 
+}
+
+.collapsible .content {
+  padding: 6px;
+  background-color: #cecbcb;
+}
+
+.collapsible .header {
+  background-color: #F18F01;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+  max-width: 600px; 
+  margin: 10px 0; 
+}
+
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .collapsible {
+    width: 90%; 
+    margin-left: 0; 
+  }
+}
+
+
+/* Not Found*/
+.notfound .main {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.notfound .main * {
+  margin: 20px;
+}
+
+/* GameInfo*/
+
+.gameinfo .main {
+  align-items: center;
+  justify-content: center;
+}
+
+.gameinfo .main p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+}
+
+.gameinfo button {
+  background: #F18F01;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* For CommentSection */
+.commentsection {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.commentsection h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.commentsection form {
+  margin-top: 10px;
+}
+
+.commentsection textarea {
+  width: 100%;
+  height: 120px;
+  padding: 5px;
+}
+
+.commentsection ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.commentsection li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/*RatingSection */
+.ratingSection {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.ratingSection h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.ratingSection div {
+  margin-top: 10px;
+}
+
+.ratingSection input[type="radio"] {
+  margin-right: 5px;
+}
+
+.ratingSection p {
+  margin-top: 10px;
+}
+
+/* checkout */
+
+.checkout .main {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.checkout label {
+  text-align: left;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout input,
+.checkout textarea,
+.checkout select {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  resize: none;
+}
+
+.checkout .main button {
+  background: #F18F01;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  font-size: 16px;
+  margin: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
+}
+
+
+
+
+
