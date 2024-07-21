@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Final-Project/static/css/main.5d9aba64.css",
+    "main.js": "/Final-Project/static/js/main.15591765.js",
+    "static/media/review1.png": "/Final-Project/static/media/review1.b98f05f6eff3cd03cee5.png",
+    "static/media/release1.png": "/Final-Project/static/media/release1.a84cea6bb50f10b6ee6f.png",
+    "static/media/update1.png": "/Final-Project/static/media/update1.3dad1f1a02e9b93b4984.png",
+    "static/media/update2.png": "/Final-Project/static/media/update2.8a6f63174bb925259162.png",
+    "static/media/review2.png": "/Final-Project/static/media/review2.56fd406422000d24be63.png",
+    "static/media/review3.png": "/Final-Project/static/media/review3.8c858be8b193c9554ec9.png",
+    "static/media/release3.png": "/Final-Project/static/media/release3.35271903f3725215d838.png",
+    "static/media/update3.png": "/Final-Project/static/media/update3.2a11086345c9b9c00521.png",
+    "static/media/release2.png": "/Final-Project/static/media/release2.932d7f86725fd49734d6.png",
+    "static/media/game3.png": "/Final-Project/static/media/game3.9d58d26d195a18b17618.png",
+    "static/media/game1.png": "/Final-Project/static/media/game1.fc3acab7c12c1808702e.png",
+    "static/media/logo.png": "/Final-Project/static/media/logo.88e62c1396fdcb5e7495.png",
+    "static/media/game5.png": "/Final-Project/static/media/game5.389d6d0c91c5cfcbef74.png",
+    "static/media/game4.png": "/Final-Project/static/media/game4.565a1ce446e706862ac6.png",
+    "static/media/game2.png": "/Final-Project/static/media/game2.98a30f70179bdebdcac5.png",
+    "index.html": "/Final-Project/index.html",
+    "main.5d9aba64.css.map": "/Final-Project/static/css/main.5d9aba64.css.map",
+    "main.15591765.js.map": "/Final-Project/static/js/main.15591765.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d9aba64.css",
+    "static/js/main.15591765.js"
+  ]
+}
